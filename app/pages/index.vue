@@ -18,7 +18,7 @@
         <center>
             <div class="box " style="padding:2rem;width:80%;margin-top:2rem;min-width:250px" id="stw">
                 <div class="form">
-<!--<img src="https://i.ibb.co/SyYPSKR/HGS-Gorsel-removebg-preview.png" style="max-width:100%">--->
+
 <br>
 Yükleme yapmak için Güvenlik kodunuzu giriniz
                     <br><br><br>
