@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="tr" ng-app="app">
+<head>
+    <script type="text/javascript">window.prerenderReady = false;</script> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <meta name="description" content="Dijital Sigortac&#x131;l&#x131;k Platformunun Lider Markas&#x131;ndan online sigorta teklifleri olu&#x15F;turma ve sat&#x131;n alma i&#x15F;lemleri.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="POLISOFT YAZILIM SAN. VE TIC. LTD. STI."> 
+    <meta name="publisher" content="POLISOFT YAZILIM SAN. VE TIC. LTD. STI.">
+    <meta name="fragment" content="!">
+    <link rel="shortcut icon" href="https://teklifcini.sigortacini.com.tr/content/uploads/website-logo/sigortacini-fav-3c01ab88-0.png" type="image/png">
+    <title> Sigorta Cini - Her ihtiyaca y&#xF6;nelik dijital sigorta &#xE7;&#xF6;z&#xFC;mleri sunar </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt; &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt; &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;" rel="stylesheet"/>
+    <link href="/content/dist/cs.min.css.gz" rel="stylesheet" type="text/css">  
+    <base href="/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166257405-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-166257405-1');
+</script><style>
+.insurance-card {
+    background: #f2f3f9 !important;
+    box-shadow: none !important;
+}
+.insurance-card .btn-light-purple {
+    color: #e70e92;
+    background-color: #fefdff;
+    border-color: #e70e92;
+    font-size: 14px;
+}
+.insurance-card .btn-light-purple:hover {
+    background-color: #e70e92 !important;
+}
+.account-quotation-box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account-quotation-box-icon.ml-1.box-mobile.custom-width-height-55 i:before {
+    transform: scale(0.3);
+}
+.kt-portlet .kt-portlet__head {
+    height: 60px;
+}
+.custom-price-info {
+    color: #e51992!important;
+}
+.quotation-box-feature {
+    box-shadow: none!important;
+    background-color: #fcf5f7!important;
+    border-radius: 0!important;
+    border: 1px solid #fcf5f7!important;
+}
+.quotation-box-feature .col-lg-12.mt-2 {
+    background: #e7e7ef!important;
+    margin-top: 0!important;
+}
+#wl_btn_view_detail {
+    background: #fff;
+    color: #e51992!important;
+    border: solid 1px #e51992!important;
+    border-radius: 8px!important;
+    padding: 10px 18px!important;
+    line-height: 25px;
+    box-shadow: none!important;
+}
+.tab-pane .col-md-10.offset-md-1.ng-scope {
+    max-width: 100%!important;
+    margin: 0!important;
+}
+.quotation-detail-box-price-money {
+    color: #f5882f!important;
+}
+#payment-button-list, #contact-button-list, #detail-button-list {
+    border-radius: 8px!important;
+    padding: 10px 18px!important;
+    line-height: 25px;
+}
+#contact-button-list {
+    background: #e51992;
+    color: #fff;
+}
+#payment-button-list {
+    background: #f5882f;
+    color: #fff;
+}
+#payment-button-list, #contact-button-list, #detail-button-list {
+    display: flex;
+    flex-direction: row;
+    border-radius: 36px;
+    border: none!important;
+    padding: 10px 14px!important;
+    height: max-content;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#detail-button-list {
+    background: #fff;
+    color: #e51992;
+    border: solid 1px #e51992!important;
+}
+#detail-button-list:hover {
+    background: #e51992;
+    color: #fff;
+    border: solid 1px #e51992!important;
+}
+.quotation-detail-box-button i:before {
+    margin-right: 6px;
+}
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .kt-portlet__head-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem!important;
+    font-weight: 700!important;
+    color: #e51992!important;
+    text-transform: uppercase;
+}
+.card-yonetim img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.kt-infobox__title {
+    font-size: 2rem;
+    color: #1a315c;
+    font-weight: 700;
+}
+.page-container {
+    display: flex;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.tab-content>.active {
+    display: block;
+}
+.tab-content {
+    font-size: 15px;
+    color: #000000;
+padding:20px;
+}
+.nav-pills li {
+    width: 100%;
+}
+a.active.show {
+    background: #19315b;
+    color: #fff;
+}
+.nav-pills li a {
+    background: #f5f7fa;
+    width: 100%;
+    padding: 14px 19px;
+    font-size: 16px;
+    display: block;
+    color: #193d61;
+    font-weight: 700;
+    border-bottom: solid 1px #193d61;
+}
+#wl_form_header h1 {
+    font-weight: 700;
+}
+.infinite-teklif-icon {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infinite-teklif-icon:after, .infinite-teklif-icon:before {
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #ff6d3b 0%, #ff6d3b 50%, transparent 50%);
+    background-size: 18px 2px;
+    background-repeat: repeat-x;
+}
+.infinite-teklif-description {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 12px 0;
+    color: #19305B;
+    text-align: center;
+    display: block;
+}
+.banner-button {
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #E71692;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.button-arrow {
+  position: relative;
+  display: inline-block;
+  padding: 8px 0;
+margin-left: 30px;
+}
+.button-arrow:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #192f5b;
+  top: 50%;
+  transition: width 0.2s ease-out;
+}
+.button-arrow:after {
+  content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #192f5b;
+    border-right: 2px solid #192f5b;
+    transform: rotate(45deg);
+    top: calc(50% - 5px);
+    position: absolute;
+    right: 1px;
+}
+.banner-button:hover .button-arrow {
+  cursor: pointer;
+}
+.banner-button:hover .button-arrow:before{
+  width: 40px;
+}
+section {
+    padding: 50px 0;
+}
+.inin img {
+    margin: 0 auto;
+}
+.nasilcontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px;
+}
+.text-muted {
+    color: #e70f92!important;
+}
+.ins-companies .row {
+    justify-content: center;
+}
+.ins-comp-logo {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    min-height: 85px;
+    padding: 10px;
+    border: solid 0px #fff9f8;
+    webkit-box-shadow: 0 4px 16px 0 rgba(153,153,153,.15);
+    box-shadow: 0px 0px 0px 1px rgb(153 153 153 / 15%);
+}
+.testimoncard {
+    background: #f0f5fc;
+    padding: 30px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+.checked {
+    color: #FBBE42;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+.boxtitle {
+    color: #192f5b;
+    font-weight: 700;
+    font-size: 16px;
+}
+.cta-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    padding: 6px 15px;
+    margin-top: 10px;
+    border: solid 1px #19305B;
+    border-radius: 10px;
+}
+.cta-button img {
+    width: 50px;
+    margin-right: 10px;
+}
+.cta-button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #1e335e;
+    font-size: 16px;
+}
+.cta-button-text  strong{
+    color: #1e335e;
+    font-size: 24px;
+}
+.ssorular-inner {
+    background: #F0F5FC;
+    border-radius: 10px;
+    padding: 40px;
+height: 100%;
+}
+.yardim-cta-inner {
+    background: #FFF9F8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 15px 40px;
+}
+.yardim-cta-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #192f5b;
+}
+.yardim-cta-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: #192f5b;
+margin-bottom: 30px;
+}
+.section-1 {
+    padding-bottom: 35px;
+padding-top: 0;
+}
+.kt-banner-shadow {
+    box-shadow: none !important;
+}
+.kt-negative-spacing--7 {
+    margin-top: -195px;
+}
+.kt-negative-spacing--17 {
+    margin-top: -137px;
+}
+.modul_logo {
+    margin-bottom: 70px;
+}
+.modul_logo img {
+    width: 115px;
+}
+#login-modal-content::after {
+    content: url();
+    position: absolute;
+    right: 34px;
+    bottom: 59px;
+    display: block;
+    transform: scale(2) rotate(0deg);
+    opacity: 0.5;
+}
+.modal-content {
+    border: 0px solid #455a64 !important;
+    border-radius: 20px !important;
+    background-color: #f5f5f500 !important;
+    padding: 20px !important;
+}
+.modal-header {
+    border-bottom: 0px solid #ebedf2 !important;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+#login-modal-content {
+   padding: 45px;
+background: #E71092;
+overflow: hidden;
+}
+.modul-title {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.modal-header .close {
+    margin: 0;
+    background: #19305B;
+    border-radius: 50px;
+    display: flex;
+    padding: 13px;
+    align-items: center;
+    opacity: 1;
+    color: #ffffff !important;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.modal-title {
+    display: none;
+}
+#login-modal-form {
+    background: #f5f5f5;
+    padding: 50px 30px;
+}
+#login-modal-form h3 {
+    color: #e70f92;
+    font-size: 17px;
+    font-weight: 700;
+}
+.modal-body {
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+}
+.modal-footer {
+    background: none!important;
+    border-radius: 0 0 20px 20px!important;
+    border-top: 0!important;
+    box-shadow: none!important;
+    background-color: #fff!important;
+}
+.kt-widget.kt-widget--project-1 .kt-widget__body {
+    padding-top : 25px !important;
+}
+.kt-widget.kt-widget--project-1 .kt-widget__head .kt-widget__label {
+    align-items: center;
+}
+.kt-widget.kt-widget--project-1 .kt-widget__head {
+    background: #fdedef;
+}
+.kt-custom-bg-light-gray {
+    background-color: #ffffff !important;
+}
+.kt-widget__username {
+    color: #e51993 !important;
+    font-weight: 900 !important;
+}
+#kt_footer {
+    padding-bottom: 80px;
+}
+.kt-widget--user-profile-3 {
+    
+}
+.hizliteklifbox {
+    width: 13.5%;
+}
+.kt-content {
+    overflow-x: hidden !important;
+}
+.wizard.wizard-5 .wizard-aside .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-title {
+    color: #ffffff;
+}
+.wizard.wizard-5 .wizard-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-label .wizard-title {
+    color: #1bc5bd;
+}
+.checked-box {
+    display: flex;
+    background: #fff;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+font-weight: 600;
+}
+.checked-box img {
+    margin-right: 5px;
+}
+.page-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.wizard {
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+.page-title {
+    text-align: center;
+    color: #19305B;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.page-description {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    color: #222;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+.mx-h-custom-42 {
+    max-height: inherit !important;
+}
+.shadow.text-center.py-4.mb-4.bg-white {
+    box-shadow: none !important;
+    border-radius: 10px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px !important;
+}
+.kt-negative-spacing--10 {
+    margin-top: -130px !important;
+}
+body {
+    color: #000 !important;
+font-size: 15px !important;
+}
+.socialmedia a:hover {
+    background: #B11B29;
+    color: #FFFFFF;
+}
+.footer_contact .phone {
+    margin-bottom: 20px;
+    display: block;
+}
+.footer_menu a:hover {
+    text-decoration: underline !important;
+}
+.topleft a:hover {
+    text-decoration: underline !important;
+}
+.topmenuright li a:hover {
+    text-decoration: underline !important;
+}
+.topleft a {
+    font-weight: 700;
+    margin: 0 5px;
+}
+.topleft .phone {
+    color: #F68827;
+}
+.topleft .whatsapp {
+    color: #05b952;
+}
+.toptext {
+    margin-right: 10px;
+    font-weight: 700;
+    color: #192f5b;
+}
+.topleft {
+    color: #232323;
+    font-weight: 500;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.account-quotation-box-icon {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: solid 0px #b11b29 !important;
+    padding: 0 !important;
+}
+
+.fa-car-alt:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-trafik-icon-48378c70-5.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+.fa-car-crash:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-kasko-icon-93213dc6-4.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+.fa-home:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-konut-icon-f47c2ad0-7.svg) !important;
+    display: block;
+transform: scale(40%);
+}
+.glyphicon-home:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-dask-icon-ab55c818-5.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+
+.fa-hand-holding-heart:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-tamamlayici-saglik-icon-af4fe5d8-e.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+.fa-heartbeat:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-ozel-saglik-icon-5e3c864b-e.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+.fa-plane-departure:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/cin-seyahat-icon-cec7e0af-1.svg) !important;
+    display: block;
+    transform: scale(40%);
+}
+
+ul.tw-dropdown-menu:before {
+    content: "";
+    display: block !important;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -6px;
+    left: 39px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+ul.navbar-nav>li.mn6-nav-item:hover>a:after {
+    display: none !important;
+}
+.nav-link i.d-flex.align-content-center.flex-wrap {
+    display: none !important;
+}
+.dropdown-menu>.dropdown-item>i, .dropdown-menu>li>a>i {
+    width: 35px !important;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    min-width: 35px;
+}
+ul.tw-dropdown-menu li {
+    display: block;
+    padding: 0px 0;
+    margin: 0 !important;
+    border-bottom: solid 1px #eaeef9;
+}
+ul.tw-dropdown-menu li:last-child {
+    border-bottom: solid 0px #eaeef9;
+}
+
+li.dropdown:hover>.dropdown-menu {
+    display: flex;
+    border-radius: 10px;
+    width: auto !important;
+    flex-direction: column;
+padding: 7px 10px;
+}
+.navbar-nav>.dropdown .dropdown-menu {
+   
+}
+.kt-login-button-custom--header:hover {
+    background-color: #f4882f!important;
+    border-color: #f4882f!important;
+}
+.kt-footer__section {
+    padding-top: 80px;
+}
+.footer_contact a {
+    display: block;
+    line-height: 27px;
+    color: #fff;
+}
+.kt-portlet {
+border: 0px solid #cfd8dc!important;
+    border-radius: 20px;
+    box-shadow: none !important;
+background: none;
+}
+.footer_contact {
+    color: #fff;
+}
+.footer_menu_title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+.footer_menu a {
+    display: block;
+    line-height: 27px;
+    color: #fff;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.socialmedia a {
+    background: #FFFFFF;
+    text-align: center;
+    color: #B11B29;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: 5px;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.footer_logo img {
+    width: 40%;
+}
+.footer_logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.info-box:hover {
+    background: #fcffe7;
+}
+.info-title {
+    color: #b11b29;
+    font-weight: 600;
+    font-size: 13px;
+}
+.info-box-holder {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.info-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #222;
+}
+#bilgi-bankasi a {
+    color: #404040;
+    text-decoration: underline;
+}
+.subb-title {
+    color: #192f5b;
+    font-weight: 700;
+}
+.companyslider ul {
+    padding: 20px;
+}
+.companyslider ul li {
+    background: #fff;
+    padding: 22px;
+    border-radius: 10px;
+}
+.stepone:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/gray-dotted-line-b91dcae9-0.svg);
+    position: absolute;
+    top: -32px;
+    right: -83px;
+}
+
+.stepthree:before {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/gray-dotted-line-b91dcae9-0.svg);
+    position: absolute;
+    top: -32px;
+    right: 43px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.stepone:after {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/orange-dashed-line-da3e01a5-6.svg);
+    position: absolute;
+    top: 0;
+   right: -106px;
+    transform: scale(0.8);
+}
+.steptwo:after {
+    content: url(https://teklifcini.sigortacini.com.tr/content/uploads/icons/orange-dashed-line-da3e01a5-6.svg);
+    position: absolute;
+    top: 0;
+    right: -69px;
+transform: scale(0.8);
+}
+
+#nasil-calisir {
+    padding-bottom: 0 !important;
+}
+.nasilboxsubtitle {
+    line-height: 130%;
+    font-size: 15px;
+}
+.nasilbox {
+    display: flex;
+    justify-content: center;
+}
+.nasilboximage img {
+    background: #939393;
+    border-radius: 50%;
+    padding: 18px;
+    margin-top: -55px !important;
+    width: 100px;
+}
+.nasilinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222222;
+    text-align: center;
+    width: 60%;
+}
+.nasilboxtitle {
+   font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 12px 0;
+    color: #19305B;
+}
+.howtowork-item-image {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.lightgradientbg {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(248,248,249,1) 100%);
+    z-index: 0;
+    position: relative;
+}
+.darkbg {
+    background: #E7E8EF;
+    margin-top: -75px;
+    z-index: 1;
+    position: relative;
+padding-bottom: 65px;
+}
+.nedenboxtitle {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 15px;
+margin-top: 10px;
+color: #19305b;
+}
+.nedenbox {
+    width: 25%;
+}
+.nedeninner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.tabs .content .row {
+    justify-content: center;
+}
+.tabteklifbox {
+    padding: 10px;
+}
+.tabteklifbox a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px 30px 40px;
+    border-radius: 10px;
+    background: #E7E8EF;
+}
+.tabteklifbox a:hover {
+    background: #fff;
+}
+.tabteklifboxtextbutton {
+    background: #F0311A;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.tabteklifboxtitle {
+    color: #222;
+    font-size: 17px;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 20px;
+}
+.container {
+    max-width: 1330px !important;
+}
+.section-subtitle {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    color: #222;
+    line-height: 130%;
+margin-bottom: 30px;
+}
+.sectiondark-subtitle {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    line-height: 130%;
+margin-bottom: 30px;
+}
+#toggle {
+    color: #e70f92;
+    font-weight: 700;
+}
+.home-title {
+    text-align: center;
+    font-size: 22px;
+    color: #1E345E;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.home-description {
+    color: #222222;
+    font-size: 14px;
+}
+.activeheader{
+    background: #e7e8ef;
+-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+.hideit{
+    display: none;
+}
+
+.kt-content {
+    padding-bottom: 80px !important;
+}
+.tabs .content section {
+    padding: 0px 0px !important;
+}
+.section-title {
+  text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #19305B;
+    flex-direction: column;
+}
+
+.sectiondark-title {
+  text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.bottom-nav .btn-outline-hover-primary {
+    background: #020f1742;
+    border-radius: 50px;
+    height: 3rem !important;
+    width: 3rem !important;
+}
+.teklifboxtextbutton {
+    background: #0000004f;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+display: none;
+}
+.teklifboxtitle {
+    color: #19305B;
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 600;
+    line-height: 20px;
+}
+.header-callme {
+    display: inline-block;
+}
+.header-callme img {
+    margin-right: 0.35rem;
+}
+
+.boxcontainer .row {
+    display: flex;
+    justify-content: space-between;
+}
+.hizliteklifbox a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    background: #fff;
+border-bottom: solid 3px #19305B;
+}
+.hizliteklifbox a:hover {
+    
+}
+.hizliteklifbox a:hover .teklifboxtextbutton {
+    background: #F0311A;
+    color:#fff;
+}
+.kt-scrolltop {
+    border-radius: 50px !important;
+    background-color: #e70f92;
+    opacity: 1 !important;
+}
+.header-callme a {
+    color: #b11b29 !important;
+    background: #ffffff;
+    padding: 8px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 50px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-callme a:hover {
+    background: #e9d9de;
+}
+.topmenuright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 !important;
+    justify-content: flex-end;
+    list-style: none;
+}
+.topmenuright li {
+    line-height: 40px;
+}
+.topmenuright li a {
+    color: #19305B;
+    font-weight: 700;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.nav-link {
+    font-weight: 600;
+}
+.navbar-nav li {
+    margin: 0px 2px !important;
+}
+.s1-header-element {
+    margin-top: 0px !important;
+}
+.custom-kt-header-topbar-user {
+    height: auto !important;
+    margin-top: 0px!important;
+}
+
+.kt-header__topbar-username {
+    color: #fff !important;
+    font-weight: 900 !important;
+}
+.kt-logout-button-custom--header:hover .kt-header__topbar-username {
+    color: #b11b29 !important;
+}
+.kt-login-button-custom--header {
+   color: #fcfdff !important;
+    background: #E71092;
+    padding: 8px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+border: solid 2px #fff;
+}
+#wl_list_view_vehicle_brand a {
+    color: black !important;
+}
+.kt-logout-button-custom--header {
+   color: #fcfdff !important;
+    background: #e51992;
+    padding: 8px 20px !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 50px !important;
+    border: none;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+height: auto !important;
+}
+.kt-header__topbar .pt-3 {
+    padding-top: 0 !important;
+}
+.specific-topbar a {
+    margin-top: 0px !important;
+}
+.row.hide-on-tablet-webline-login.hide-menu-mobile.mr-0-mbl-row {
+    max-width: 1480px !important;
+    margin: auto;
+    height: 100%;
+}
+.custom-full-width {
+    max-width: 1480px !important;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+.height_by_resolution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding-top: 4%;
+}
+.bottom-nav {
+    bottom: 45% !important;
+}
+.bannerinner {
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    padding: 6px 0;
+    justify-content: space-between;
+}
+.bannerleft {
+ 
+}
+.bannerlighttext {
+    font-size: 2.3rem;
+    line-height: 135%;
+width: 100%;
+}
+.bannerboldtext {
+    font-size: 2.8em;
+    line-height: 110%;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-weight: 600;
+width: 100%;
+}
+
+.logo-size {
+   max-width: 250px !important;
+   max-height: 58px !important;
+}
+.custom-top-header {
+background: #fff !important;
+min-height: 40px !important;
+padding: 0 !important;
+}
+
+ul.tw-dropdown-menu li a {
+    font-weight: 600 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    justify-content: flex-start;
+line-height: 125%;
+}
+
+.cookie-consent-banner  {
+width:90% !important;
+ background-color:#fff !important;
+ border-radius: 15px;
+ margin-right: 5%;
+ margin-left: 5%;
+ margin-bottom: 10px;
+border: 1px solid #92000a2b;
+}
+
+.cookie-consent-banner__inner {
+ max-width:90% !important;
+}
+
+.cookie-consent-banner__description {
+    color: #0a0a0b !important;
+    width: 84%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.cookie-close-section {
+color: #fff;
+    margin-bottom: 15px !important;
+    background: #b11b29;
+    border-radius: 50px;
+    font-size: 12px;
+    border-color: #b11b29;
+}
+.custom-sticky {
+    position: fixed !important;
+}
+#kt_header {
+    background: #ffffff00 !important;
+}
+#kt_header_mobile {
+    background: #ffffff00 !important;
+}
+
+@media (max-width: 576px){
+.tabteklifbox {
+    width: 50%;
+}
+.tabteklifbox a {
+    padding: 20px 10px 30px 10px;
+min-height: 260px;
+}
+.kt-negative-spacing--17 {
+    margin-top: -110px;
+}
+.kt-footer .kt-container {
+    padding-left: 0px;
+padding-right: 0px;
+}
+.kt-footer {
+    padding: 0 0 50px 0;
+}
+.footer_contact {
+    border-right: solid 0px #D3CDCD;
+}
+.forDesktop {
+display: none;
+}
+mobile-burger-menu {
+    display: none;
+}
+.logo-size {
+max-width: 160px!important;
+    max-height: 37px!important;
+    margin-top: 0px!important;
+}
+.kt-login-button-custom--header {
+    padding: 4px 9px;
+    font-size: 12px;
+}
+.s1-tablet-header-element {
+    margin-top: 0px!important;
+}
+.kt-header-mobile {
+    padding: 0px;
+height: 60px;
+    min-height: 60px;
+}
+.bannerinner {
+    flex-direction: column;
+}
+.bannerlighttext {
+    font-size: 1.6rem;
+}
+.bannerboldtext {
+    font-size: 1.8em;
+margin-bottom: 20px;
+}
+.bannerleft {
+    text-align: center;
+    margin-bottom: 20px;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nedenbox {
+    width: 50%;
+    padding: 27px;
+}
+.companyslider ul li {
+    padding: 7px;
+}
+.boxcontainer .row {
+   justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+}
+.hizliteklifbox {
+    min-width: 42%;
+padding: 2px;
+}
+.teklifboxtitle {
+    font-size: 12px;
+    line-height: 16px;
+}
+.hizliteklifbox a {
+    padding: 15px 3px 20px 3px;
+}
+.teklifboxtextbutton {
+    background: #F0311A;
+    color: #fff;
+}
+.height_by_resolution {
+    padding-top: 25%;
+}
+}
+@media only screen and (min-width:768px) {
+.forMobile {
+    display: none;
+}
+} 
+@media only screen and (max-width:767px) {
+.forDesktop {
+    display: none;
+}
+.kt-portlet .kt-portlet__body {
+    padding: 0px;
+}
+.footer_menu {
+    padding-left: 0;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+}
+.footer_menu .footer_menu_title {
+    margin-top: 30px;
+}
+.kt-login-button-custom--header {
+    padding: 10px 10px;
+    font-size: 0px;
+    border-radius: 50px;
+}
+.fa.fa-user-circle {
+    margin-right: 0rem !important;
+}
+.section-1 {
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+.login-hide-on-desktop.hide-on-tablet-webline-login .col-auto {
+    padding: 0!important;
+    text-align: center!important;
+}
+} 
+
+</style></head>
+<body ng-controller="WelcomeController" resolution-control ng-style="styleSettings.bodyColor !== null && {'background-color': styleSettings.bodyColor }" class="kt-page--loading-enabled kt-header--minimize-topbar kt-subheader--transparent kt-overflow-x-hidden">
+    
+    <div class="kt-grid kt-grid--hor" ng-cloak>
+        <div class="kt-grid kt-grid--hor kt-grid--root">
+            
+<div id="stickey-header" class="custom-sticky" ng-if="isNoThemed !== true" ng-cloak>
+
+    <!-- HEADER TOPBAR -->
+    <topbar-s01-default ng-if="headerSettingsStyle.isViewTopHeader === true"></topbar-s01-default>
+
+    <!-- HEADER -->
+    <header-s01-default
+        ng-if="headerSettingsStyle.isViewHeader === true && headerSettingsStyle.selectedHeaderStyle === 'STYLE-1'">
+    </header-s01-default>
+    <header-s03
+        ng-if="headerSettingsStyle.isViewHeader === true && headerSettingsStyle.selectedHeaderStyle === 'STYLE-3'">
+    </header-s03>
+
+    <!-- MENÜ -->
+    <div
+        ng-if="menuStyles.menuViewLocation === 'TOP-BANNER' && menuStyles.isHeader !== true && menuStyles.isFixed === true">
+        <menu-s02-subheader-default></menu-s02-subheader-default>
+        <menu-s02-topbar ng-if="menuStyles.menuStyle === 'S02-DEFAULT'"></menu-s02-topbar>
+        <menu-s03-bootstrap ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP'"></menu-s03-bootstrap>
+        <menu-s03-bootstrap-dark ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP-DARK'"></menu-s03-bootstrap-dark>
+        <menu-s03-bootstrap-color ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP-COLOR'"></menu-s03-bootstrap-color>
+        <menu-s04-default ng-if="menuStyles.menuStyle === 'S04-DEFAULT'"></menu-s04-default>
+        <menu-s05-default ng-if="menuStyles.menuStyle === 'S05-DEFAULT'"></menu-s05-default>
+        <menu-s06-default ng-if="menuStyles.menuStyle === 'S06-DEFAULT'"></menu-s06-default>
+        <menu-s07-default ng-if="menuStyles.menuStyle === 'S07-DEFAULT'"></menu-s07-default>
+        <menu-s08-default ng-if="menuStyles.menuStyle === 'S08-DEFAULT'"></menu-s08-default>
+        <menu-s09-default ng-if="menuStyles.menuStyle === 'S09-DEFAULT'"></menu-s09-default>
+    </div>
+</div>
+
+<!-- MENÜ -->
+<div
+    ng-if="menuStyles.menuViewLocation === 'TOP-BANNER' && menuStyles.isHeader !== true && menuStyles.isFixed !== true && isNoThemed !== true">
+    <menu-s02-subheader-default></menu-s02-subheader-default>
+    <menu-s02-topbar ng-if="menuStyles.menuStyle === 'S02-DEFAULT'"></menu-s02-topbar>
+    <menu-s03-bootstrap ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP'"></menu-s03-bootstrap>
+    <menu-s03-bootstrap-dark ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP-DARK'"></menu-s03-bootstrap-dark>
+    <menu-s03-bootstrap-color ng-if="menuStyles.menuStyle === 'S03-BOOTSTRAP-COLOR'"></menu-s03-bootstrap-color>
+    <menu-s04-default ng-if="menuStyles.menuStyle === 'S04-DEFAULT'"></menu-s04-default>
+    <menu-s05-default ng-if="menuStyles.menuStyle === 'S05-DEFAULT'"></menu-s05-default>
+    <menu-s06-default ng-if="menuStyles.menuStyle === 'S06-DEFAULT'"></menu-s06-default>
+    <menu-s07-default ng-if="menuStyles.menuStyle === 'S07-DEFAULT'"></menu-s07-default>
+    <menu-s08-default ng-if="menuStyles.menuStyle === 'S08-DEFAULT'"></menu-s08-default>
+    <menu-s09-default ng-if="menuStyles.menuStyle === 'S09-DEFAULT'"></menu-s09-default>
+</div>
+
+            <div class="kt-content kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor pt-0"> 
+                <ui-view></ui-view>
+            </div>
+            <footer id="kt_footer" class="kt-footer kt-footer--extended kt-grid__item"
+                style="display:none; background-color: {{styleSettings.footerColor}};"
+                ng-if="isNoThemed !== true">
+                <div class="kt-footer__top">
+                    <div class="kt-container" id="footerContent">
+                        <div class="row"  ng-if="websiteSettings.isFooterAddress !== false && websiteSettings.address !== null && websiteSettings.address !== ''">
+                            <div class="col-lg-4">
+                                <div class="kt-footer__section">
+                                    <h3 class="kt-footer__title"> 
+                                            &#x130;leti&#x15F;im
+                                    </h3>
+                                    <div class="kt-footer__content">
+                                        {{ websiteSettings.address }} <br> 
+                                        {{ websiteSettings.phone }} <br>
+                                        <text-to-canvas 
+                                            ng-if="websiteSettings.isFooterEmail !== false"
+                                            data="{{ websiteSettings.email }}"
+                                            font="{{12}}"></text-to-canvas><br>
+                                        <a class="mt-3 float-left" ui-sref="welcome" 
+                                        ng-if="websiteSettings.logoLocation === null && portalPanelSettings.isViewFooterLogo === true">
+                                            <img alt="Sigorta Cini - Her ihtiyaca y&#xF6;nelik dijital sigorta &#xE7;&#xF6;z&#xFC;mleri sunar" 
+                                                src="/content/assets/media/logos/logo-2.png" 
+                                                class="kt-header__brand-logo-default" />
+                                        </a>
+                                        <a class="mt-3 float-left" ui-sref="welcome" 
+                                            ng-if="websiteSettings.logoLocation !== null && portalPanelSettings.isViewFooterLogo === true">
+                                            <img alt="Sigorta Cini - Her ihtiyaca y&#xF6;nelik dijital sigorta &#xE7;&#xF6;z&#xFC;mleri sunar"  
+                                                ng-src="{{ websiteSettings.logoLocation }}" 
+                                                class="kt-header__brand-logo-default logo-size" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="{{ item.size }} pt-30-mb" 
+                                ng-repeat="item in boxesData.footerItems | orderBy: 'order'"
+                                ng-if="item.isActive" ng-class="{ 'kt-hidden-mobile' : item.isViewMobile === false, 'hide-banner-on-tablet' : item.isViewTablet === false, 'hide-banner-on-desktop' : item.isViewDesktop === false}">
+                                <div class="kt-footer__section" ng-if="item.boxesType === 'default' || item.boxesType === null" style="{{item.customCSS}};">
+                                    <h3 class="kt-footer__title" ng-if="item.isViewTitle">
+                                        {{ item.title }}
+                                    </h3>
+                                    <div ng-bind-html="item.content | trustHtml">
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row col-lg-12" ng-if="websiteSettings.isFooterAddress === false"> 
+                                <div class="{{ item.size }} pt-30-mb" ng-repeat="item in boxesData.footerItems | orderBy: 'order'" 
+                                    ng-if="item.isActive" ng-class="{ 'kt-hidden-mobile' : item.isViewMobile === false, 'hide-banner-on-tablet' : item.isViewTablet === false, 'hide-banner-on-desktop' : item.isViewDesktop === false}">
+                                    <div class="kt-footer__section" ng-if="item.boxesType === 'default' || item.boxesType === null" style="{{item.customCSS}};">
+                                        <h3 class="kt-footer__title" ng-if="item.isViewTitle">
+                                            {{ item.title }}
+                                        </h3>
+                                        <div ng-bind-html="item.content | trustHtml">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer> 
+            <footer id="kt_footer_bottom" class="kt-footer kt-footer--extended kt-grid__item p-3" style="display:none; background-color: {{styleSettings.bottomFooterColor}};"  ng-if="isNoThemed !== true">
+                <div class="row">
+                    <div class="mx-auto">
+                        <div class="mr-5 float-left font-weight-bold">
+                            2022  {{ websiteSettings.copyrightContent }}
+                        </div>
+                        <div class="mr-5 float-left" ng-if="dynamicContent.isViewLinkFooter === true"> 
+                            <a href="" ng-click="openDataPolicyModal()"> {{ dynamicContent.dataContentTitle }} </a>
+                        </div>
+                        <div class="mr-5 float-left" ng-if="dynamicContent.isViewMarketingLinkFooter === true"> 
+                            <a href="" ng-click="openPrivacyPolicyModal()"> {{ 'Gizlilik Politikası ve Kullanıcı Sözleşmesi' | translate }} </a>
+                        </div>
+                        <div class="mr-5 float-left">
+                            <div class="kt-footer__copyright">
+                                <a href="http://www.polisoft.com.tr/" rel="nofollow" target="_blank" alt="Sigorta Cini - Her ihtiyaca y&#xF6;nelik dijital sigorta &#xE7;&#xF6;z&#xFC;mleri sunar">
+                                    <span class="by-polisoft"  uib-tooltip="V 5.7.0" tooltip-placement="top">by polisoft</span>
+                                </a> 
+                                <span class="ml-4" ng-if="welcomeInit.refLoginInfo !== null && welcomeInit.refLoginInfo !== undefined && welcomeInit.refLoginInfo !== ''">                                   
+                                    {{ welcomeInit.refLoginInfo }} | &nbsp; <a ng-click="redirectHrefUrl('/ref/logout')" href="">{{ 'Referans Çıkışı' | translate }}</a>
+                                </span>
+                                <span class="ml-4" ng-if="getRefName() !== null && getRefName() !== undefined && getRefName() !== ''">                                   
+                                    {{ getRefName() }} | &nbsp; <a ng-click="removeRefUser()" href="">{{ 'Referans Kaldır' | translate }}</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </footer>
+                <div class="overlay-panel" ng-if="restConnector.current > 0">
+                    <div class="loading-screen animated fadeIn">
+                        <div class="loading-animation text-center align-center"> 
+                            <div class="text-center align-middle">
+                                <img src="https://teklifcini.sigortacini.com.tr/content/uploads/website-logo/sigortacini-logo-3dbd240c-d.png" ng-if="'True'=='True'" style="max-width: 150px;" id="wl_preloader-logo"/>
+                            </div>
+                            <div class="loading-bar mb-2"></div> 
+                        </div>  
+                    </div> 
+                </div>
+        </div>
+    </div>
+    <div id="cookie_permission" class="cookie-consent-banner kt-display-none" ng-if="checkCookiePermission()">
+        <div class="cookie-consent-banner__inner cookie-consent-banner__inner-mobile">
+            <div class="cookie-consent-banner__copy">
+                <div class="cookie_description">
+                   &#xC7;erezler hizmetlerimizi sunmaya yard&#x131;mc&#x131; olur. Hizmetlerimizi kullanarak &#xE7;erezleri kullanmay&#x131; kabul etmi&#x15F; olursunuz.
+                   <a href="" ng-click="openDataPolicyModal()"> 
+                       Daha fazla bilgi edinin
+                    </a>
+                </div>
+                <button class="btn btn-sm btn-secondary pull-right cookie-close-section" ng-click="closeCookieConsent()">Tamam</button> 
+            </div>  
+        </div>
+    </div>
+    
+    <!-- Başa Dön Butonu -->
+    <div ng-if="'True'=='True'">        
+        <div id="kt_scrolltop" class="kt-scrolltop kt-scrolltop-bottom" ng-click="letsScrollToTop()">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </div> 
+    <script type="text/javascript" src="/content/dist/cs.min.js.gz?v=5.7.0"></script>
+    <script type="text/javascript" src="/content/dist/ng.min.js.gz?v=5.7.0"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.polimarquee').liMarquee({
+                direction: 'left',	
+                loop:-1,			
+                scrolldelay: 500,	
+                scrollamount:90,	
+                circular: false,
+                hoverstop:false,	
+                drag: false			
+            });
+        });
+    </script>
+     
+</body> 
+</html>

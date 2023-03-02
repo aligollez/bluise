@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-cin-konut-icon">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="cin-konut-icon" clip-path="url(#clip-cin-konut-icon)">
+    <g id="Group_14449" data-name="Group 14449" transform="translate(-1089.255 -757.387)">
+      <ellipse id="Ellipse_482" data-name="Ellipse 482" cx="26.905" cy="26.905" rx="26.905" ry="26.905" transform="translate(1112.68 769.968)" fill="#eaeef9"/>
+      <g id="Group_14194" data-name="Group 14194" transform="translate(1104.67 774.206)">
+        <g id="Group_14191" data-name="Group 14191">
+          <line id="Line_615" data-name="Line 615" x1="29.175" y2="21.951" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <line id="Line_616" data-name="Line 616" y2="35.911" transform="translate(5.474 17.833)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <path id="Path_16135" data-name="Path 16135" d="M820.581,525.981v-8.156H804.269v16.312h11.778" transform="translate(-783.25 -492.303)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_16136" data-name="Path 16136" d="M825.917,532.05v7.424h-7.423V532.05" transform="translate(-793.03 -502.083)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_617" data-name="Line 617" x2="28.853" transform="translate(5.474 53.744)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <line id="Line_618" data-name="Line 618" x1="11.147" y2="8.387" transform="translate(18.028 7.362)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <line id="Line_619" data-name="Line 619" x2="29.175" y2="21.951" transform="translate(29.175)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <line id="Line_620" data-name="Line 620" y2="10.272" transform="translate(52.877 17.833)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+          <line id="Line_621" data-name="Line 621" x2="11.147" y2="8.387" transform="translate(29.175 7.362)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+        </g>
+        <g id="Group_14193" data-name="Group 14193" transform="translate(35.923 32.363)">
+          <g id="Group_14192" data-name="Group 14192" transform="translate(10.364 13.889)">
+            <path id="Path_16137" data-name="Path 16137" d="M885.144,589.24l5.812,5.183,8.38-10.249" transform="translate(-885.144 -584.174)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+          <path id="Path_16138" data-name="Path 16138" d="M885.687,544.446a22.089,22.089,0,0,1-16.761-4.726,22.088,22.088,0,0,1-16.761,4.726s-3.227,27.392,16.761,33.3C888.915,571.838,885.687,544.446,885.687,544.446Z" transform="translate(-851.973 -539.72)" fill="none" stroke="#19305b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+        <path id="Path_16139" data-name="Path 16139" d="M875.822,559.242a52.087,52.087,0,0,1,13.686,1.793c.123-1.66.145-3.145.126-4.329a25.667,25.667,0,0,1-13.812-4.125A25.671,25.671,0,0,1,862,556.706c-.022,1.186,0,2.672.117,4.333A52.09,52.09,0,0,1,875.822,559.242Z" transform="translate(-822.941 -516.2)" fill="#e71692"/>
+      </g>
+      <path id="Path_16197" data-name="Path 16197" d="M6.418,12.836A2.006,2.006,0,0,1,4.412,10.83,2.409,2.409,0,0,0,2.006,8.423a2.006,2.006,0,1,1,0-4.011A2.409,2.409,0,0,0,4.412,2.006a2.006,2.006,0,1,1,4.011,0A2.409,2.409,0,0,0,10.83,4.412a2.006,2.006,0,1,1,0,4.011A2.409,2.409,0,0,0,8.423,10.83,2.006,2.006,0,0,1,6.418,12.836Z" transform="translate(1151.744 775.401) rotate(-19)" fill="#f68823"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-phone-icon">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="phone-icon" clip-path="url(#clip-phone-icon)">
+    <g id="final-design" transform="translate(3.001 1)">
+      <g id="Gabi-new-website-design-v2">
+        <g id="the-benefits">
+          <g id="headphones-mic">
+            <path id="Path" d="M20.034,29.063H12.82a1.2,1.2,0,0,0-1.2,1.2h-1.2A6.018,6.018,0,0,1,4.4,24.254V22.742H2v1.512a8.425,8.425,0,0,0,8.416,8.416h1.2a1.2,1.2,0,0,0,1.2,1.2h7.213a1.2,1.2,0,0,0,1.2-1.2v-2.4A1.2,1.2,0,0,0,20.034,29.063Z" transform="translate(0.404 4.599)" fill="#3d4c5e"/>
+            <path id="Path-2" data-name="Path" d="M32.461,18.1V12.022A12.036,12.036,0,0,0,20.438,0H13.225A12.036,12.036,0,0,0,1.2,12.022V18.1A7.8,7.8,0,0,0,9.945,29.756l.875-.249V14.976l-.875-.248a7.728,7.728,0,0,0-6.338.939V12.022A9.629,9.629,0,0,1,13.225,2.4h7.213a9.629,9.629,0,0,1,9.618,9.618v3.645a7.738,7.738,0,0,0-6.338-.94l-.875.249V29.508l.875.248A7.8,7.8,0,0,0,32.461,18.1Z" fill="#e71b93"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
